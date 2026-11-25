@@ -1,0 +1,21 @@
+{
+  "name": "pulselink-server",
+  "version": "1.1.0",
+  "description": "PulseLink backend: Email/Google Auth, MySQL/MariaDB, Media Upload, TURN Config, Chat & WebRTC Signaling",
+  "main": "src/index.js",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node scripts/check-syntax.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "ws": "^8.18.0"
+  }
+}

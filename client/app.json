@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "PulseLink",
+    "slug": "pulselink",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.pulselink.app",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Video qo‘ng‘iroqlar uchun kamera ruxsati kerak",
+        "NSMicrophoneUsageDescription": "Audio va video qo‘ng‘iroqlar uchun mikrofon ruxsati kerak"
+      },
+      "buildNumber": "10100"
+    },
+    "android": {
+      "package": "com.pulselink.app",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "MODIFY_AUDIO_SETTINGS"
+      ],
+      "versionCode": 10100,
+      "allowBackup": false
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
